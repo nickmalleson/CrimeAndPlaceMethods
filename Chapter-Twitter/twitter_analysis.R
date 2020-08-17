@@ -3,9 +3,8 @@
 # and the documentation for the `rtweet` package
 # https://github.com/ropensci/rtweet
 
-
 # Load twitter library - the rtweet library is recommended now over twitteR
-# LIbrary documentaiton is at: https://cran.r-project.org/web/packages/rtweet/index.html
+# Library documentaiton is at: https://cran.r-project.org/web/packages/rtweet/index.html
 library(rtweet)
 
 # Plotting and pipes - tidyverse!
@@ -29,6 +28,9 @@ library(sf)
 
 # Set the working directory to be the same directory that this script is stored in. For me this is:
 setwd("/Users/nick/gp/CrimeAndPlaceMethods/Chapter-Twitter")
+
+# Now you need to enter the details about the Twitter 'app' you have created to allow you access to the Twitter APIs.
+# See the chapter for details
 
 # whatever name you assigned to your created app
 appname <- ""
