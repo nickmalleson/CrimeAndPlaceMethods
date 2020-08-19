@@ -12,15 +12,9 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 
-# Text mining library
-#library(tidytext)
-
 # Working with JSON
 library(rjson)
 library(jsonlite)
-
-# For plotting tweets
-library(maps)
 
 # For reading the Washington shapefile
 library(rgdal)
@@ -47,7 +41,8 @@ twitter_token <- create_token(
   consumer_key = consumer.key,
   consumer_secret = consumer.secret,
   access_token = access.token,
-  access_secret = access.token.secret)
+  access_secret = access.token.secret
+  )
 
 ### Search for some tweets sent from the US
 #rt <- search_tweets(
